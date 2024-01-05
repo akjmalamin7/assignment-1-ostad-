@@ -1,0 +1,30 @@
+:root{
+    --primary_color:rgba(220, 53, 69, 1);
+    --secondary_color:rgba(70, 112, 145,1) ;
+    --secondary_color_opacity_point_1:rgba(70, 112, 145,.1) ;
+    --secondary_color_opacity_point_2:rgba(70, 112, 145,.2) ;
+    --secondary_color_opacity_point_zero_2:rgba(70, 112, 145,.02) ;
+    --secondary_color_opacity_point_zero_4:rgba(70, 112, 145,.04) ;
+    --secondary_color_opacity_point_8:rgba(70, 112, 145,.8) ;
+    --section_border:rgb(233, 233, 233);
+    --white:#ffffff;
+    --black:rgba(0,0,0,1);
+    --black_opacity_point_9:rgba(0,0,0,.9);
+    --black_opacity_point_1:rgba(0,0,0,.1);
+    --dark_tertiary:rgba(30,39,46,1);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    color:var(--secondary_color);
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
